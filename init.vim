@@ -1,5 +1,7 @@
 " Enable syntax highlighting
 syntax on
+"set background=dark
+"colorscheme solarized
 
 " Enable auto indentation custom per file type
 filetype plugin indent on

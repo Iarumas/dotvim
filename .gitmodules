@@ -4,3 +4,24 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "bundle/calendar-vim"]
+	path = bundle/calendar-vim
+	url = git://github.com/mattn/calendar-vim
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/denite"]
+	path = bundle/denite
+	url = https://github.com/Shougo/denite.nvim.git
+[submodule "bundle/factorus"]
+	path = bundle/factorus
+	url = https://github.com/apalmer1377/factorus.git
+[submodule "bundle/flake8"]
+	path = bundle/flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
