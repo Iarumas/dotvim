@@ -64,9 +64,6 @@
 [submodule "bundle/lightline"]
 	path = bundle/lightline
 	url = https://github.com/vim-scripts/lightline.git
-[submodule "bundle/rainbows"]
-	path = bundle/rainbows
-	url = https://github.com/nfischer/vim-rainbows.git
 [submodule "bundle/vim-maktaba"]
 	path = bundle/vim-maktaba
 	url = https://github.com/google/vim-maktaba.git
@@ -88,3 +85,9 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-ledger"]
+	path = bundle/vim-ledger
+	url = https://github.com/ledger/vim-ledger.git
+[submodule "bundle/rainbowPars"]
+	path = bundle/rainbowPars
+	url = https://github.com/junegunn/rainbow_parentheses.vim.git

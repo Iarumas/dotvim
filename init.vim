@@ -186,10 +186,6 @@ nmap <Leader><Leader>L <Plug>(easymotion-overwin-jk)
 map <Leader><Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader><Leader>w <Plug>(easymotion-overwin-w)
 
-
-""" RainbowParentheses
-" let g:rainbow_active = 1
-
 "" VimWiki/Gollum
 let g:vimwiki_list = [{'path': '~/Dokumente/VimWiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
 
@@ -213,7 +209,8 @@ endfunction
 "" GUndo
 nmap <leader>gu :GundoToggle<cr>
 let g:gundo_right = 1
-let g:gundo_width = 25
+let g:gundo_width = 60
+let g:gundo_preview_height = 40
 
 "" Unite
 nnoremap <leader>f :Denite file_rec<cr>
