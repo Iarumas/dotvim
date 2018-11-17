@@ -188,7 +188,7 @@ nmap <Leader><Leader>w <Plug>(easymotion-overwin-w)
 
 
 """ RainbowParentheses
-let g:rainbow_active = 0
+" let g:rainbow_active = 1
 
 "" VimWiki/Gollum
 let g:vimwiki_list = [{'path': '~/Dokumente/VimWiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
