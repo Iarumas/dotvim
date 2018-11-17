@@ -157,9 +157,12 @@ set splitright
 let g:slime_target = "tmux"
 let g:slime_default_config = {"socket_name":"default", "target_pane":":0.1"} 
 
-" Airline configuration
+
+"Python 3 shit
+let g:python3_host_prog='C:/Python37/python.exe'
+
+" Lightline configuration
 set laststatus=2
-let g:airline#extensions#tabline#enabled=0
 
 "" NERDTree
 nmap <leader>nn :NERDTreeToggle<cr>

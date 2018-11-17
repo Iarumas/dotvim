@@ -43,3 +43,18 @@
 [submodule "bundle/bundle/lightline"]
 	path = bundle/bundle/lightline
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "bundle/julia-vim"]
+	path = bundle/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
+[submodule "bundle/howmuch"]
+	path = bundle/howmuch
+	url = https://github.com/sk1418/HowMuch.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = https://github.com/adelarsq/vim-matchit.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
