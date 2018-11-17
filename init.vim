@@ -101,7 +101,6 @@ execute pathogen#infect()
 set t_Co=16
 set background=dark
 colors solarized
-"colors solarized
 
 let mapleader = ","
 
@@ -158,8 +157,9 @@ let g:slime_target = "tmux"
 let g:slime_default_config = {"socket_name":"default", "target_pane":":0.1"} 
 
 
-"Python 3 shit
+"Python Paths
 let g:python3_host_prog='C:/Python37/python.exe'
+let g:python_host_prog='C:/Python27/python.exe'
 
 " Lightline configuration
 set laststatus=2
@@ -187,11 +187,8 @@ map <Leader><Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader><Leader>w <Plug>(easymotion-overwin-w)
 
 
-""" RainbowParentheses TODO
-"au VimEnter *   RainbowParanthesesToggle
-"au Syntax   *   RainbowParanthesesLoadRound
-"au Syntax   *   RainbowParanthesesLoadSquare
-"au Syntax   *   RainbowParanthesesLoadBraces
+""" RainbowParentheses
+let g:rainbow_active = 0
 
 "" VimWiki/Gollum
 let g:vimwiki_list = [{'path': '~/Dokumente/VimWiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
@@ -218,7 +215,7 @@ nmap <leader>gu :GundoToggle<cr>
 let g:gundo_right = 1
 let g:gundo_width = 25
 
-"" Unite TODO: Change to Denite
+"" Unite
 nnoremap <leader>f :Denite file_rec<cr>
 "nnoremap <leader>fr :Denite file_rec/async<cr>
 nnoremap <leader>b :Denite buffer<cr>
@@ -227,6 +224,7 @@ let g:unite_source_history_yank_enable = 1
 nnoremap <leader>y :Denite history/yank<cr>
 
 "" Tagbar
+let g:tagbar_ctags_bin='C:\Program Files\ctags58\ctags.exe'
 let g:tagbar_width = 25
 nmap <leader>tb :TagbarToggle<cr>
 

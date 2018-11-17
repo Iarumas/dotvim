@@ -58,3 +58,12 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "bundle/vim-latex"]
+	path = bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
+[submodule "bundle/lightline"]
+	path = bundle/lightline
+	url = https://github.com/vim-scripts/lightline.git
+[submodule "bundle/rainbows"]
+	path = bundle/rainbows
+	url = https://github.com/nfischer/vim-rainbows.git
