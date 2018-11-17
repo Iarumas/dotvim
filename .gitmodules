@@ -4,9 +4,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/airline"]
-	path = bundle/airline
-	url = https://github.com/vim-airline/vim-airline.git
 [submodule "bundle/calendar-vim"]
 	path = bundle/calendar-vim
 	url = git://github.com/mattn/calendar-vim
@@ -40,3 +37,9 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = https://github.com/sjl/gundo.vim.git
+[submodule "bundle/deoplete"]
+	path = bundle/deoplete
+	url = https://github.com/Shougo/deoplete.nvim.git
+[submodule "bundle/bundle/lightline"]
+	path = bundle/bundle/lightline
+	url = https://github.com/itchyny/lightline.vim.git
