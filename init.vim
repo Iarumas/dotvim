@@ -135,6 +135,8 @@ set guifont=Inconsolata\ 10
 
 map <silent> <leader><cr> :noh<cr>
 
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
+
 map <leader>sd :setlocal spell spelllang=de<cr>
 map <leader>se :setlocal spell spelllang=en<cr>
 map <leader>sn ]s
@@ -164,11 +166,28 @@ let g:python_host_prog='C:/Python27/python.exe'
 " Lightline configuration
 set laststatus=2
 
+"" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:Syntastic_auto_loc_list = 1
+let g:systastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 "" NERDTree
+autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+" autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
+
 nmap <leader>nn :NERDTreeToggle<cr>
+nnoremap <silent> <leader>nf :NERDTreeFind<CR>
+
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let g:NERDTreeWinSize = 25
+let NERDTreeQuitOnOpen = 1
 
 "" EasyMotion Stuff
 " <Leader>f{char} to move to char
